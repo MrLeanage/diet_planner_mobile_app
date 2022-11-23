@@ -1,0 +1,55 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello Sir", "Hi Sir", "Hi there", "Hi there"]
+    },
+    {"tag": "welcome-note-1",
+    "patterns": ["description", "requirement", "next step"],
+     "responses": ["We want to collect information about you in order to identify the a proper meal.",
+	 "In order to identify the right meal, we want to collect some information about you.", 
+	 "In order to identify the right meal plan, we want to collect some information about you.",
+	 "We want to collect information about to identify the proper meal.", 
+	 "In order to identify the meal plan , we want to collect information about you.",
+	 "In order to choose the appropriate meal, we need to gather information about you.",
+	 "We need to learn more about you in order to select the proper meal."]
+    },
+    {"tag": "welcome-note-2",
+    "patterns": ["What should do", "action", "activity", "response"],
+     "responses": ["If the behavior is not state 'NO', else answer 'YES'. ", "If the behavior doesn’t exist state with 'NO', else answer 'YES'.", "If behavior not exist with 'NO', else answer 'YES'. ", "If there is behavior that does not exist with 'NO', please answer 'YES'.", "If there is behavior that is not 'NO', else please answer 'YES'."]
+    },
+    {"tag": "sentence-connector", 
+	"patterns": ["what is next"],
+     "responses": ["So, lets start the Q&A", 
+	 "Let's begin the Q&A now.",
+	 "Now let's start the Q&A."	]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "YES Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    }
+]
+}
